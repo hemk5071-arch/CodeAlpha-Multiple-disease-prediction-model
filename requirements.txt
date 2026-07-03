@@ -1,8 +1,8 @@
-* Python
-* Scikit-Learn
-* NumPy
-* Pandas
-* Pickle
-* Streamlit
-* Google Colab
-* Visual Studio Code
+Python
+Scikit-Learn
+NumPy
+Pandas
+Pickle
+Streamlit
+Google Colab
+Visual Studio Code

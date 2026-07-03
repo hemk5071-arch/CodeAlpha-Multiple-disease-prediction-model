@@ -4,9 +4,9 @@ import time
 from streamlit_option_menu import option_menu
 
 #Load models
-diabetes_model = pickle.load(open('diabetes_prediction_model.pkl', 'rb'))
-heart_model = pickle.load(open('heart_disease_prediction.pkl', 'rb'))
-breast_model = pickle.load(open('breast_cancer_prediction_model.pkl', 'rb'))
+diabetes_model = pickle.load(open('models/diabetes_prediction_model.pkl', 'rb'))
+heart_model = pickle.load(open('models/heart_disease_prediction.pkl', 'rb'))
+breast_model = pickle.load(open('models/breast_cancer_prediction_model.pkl', 'rb'))
 
 #create sidebar
 with st.sidebar:

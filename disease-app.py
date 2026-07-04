@@ -189,7 +189,7 @@ if selected == "Breast cancer prediction":
             time.sleep(2)
             
             breast_cancer_prediction = breast_model.predict(
-                [[meanradius, meantexture, meanperimeter, meanarea, meansmoothness, meancompactness, meconcavity, meanconcavepoint, meansymmetry, meanfractaldimension,
+                [[meanradius, meantexture, meanperimeter, meanarea, meansmoothness, meancompactness, meanconcavity, meanconcavepoint, meansymmetry, meanfractaldimension,
                   radiuserror, textureerror, perimetererror, areaerror, smoothnesserror, compactnesserror, concavityerror, concavepointerror, symmetryerror, fractaldimensionerror,
                   worstradius, worsttexture, worstperimeter, worstarea, worstsmoothness, worstcompactness, worstconcavity, worstconcavepoint, worstsymmetry, worstfractaldimension]]
                 )

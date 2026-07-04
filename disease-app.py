@@ -101,7 +101,7 @@ if selected == "Heart disease prediction":
         with st.spinner("Analyzing patient data..."):
             time.sleep(2)
             heart_prediction = heart_model.predict(
-                [[age, sex, cp, trestbps, chol, fbs, restecgm, thalach,	exang, oldpeak, slope, ca, thal]]
+                [[age, sex, cp, trestbps, chol, fbs, restecg, thalach,	exang, oldpeak, slope, ca, thal]]
             )
             
             if (heart_prediction[0] == 1):
@@ -181,7 +181,7 @@ if selected == "Breast cancer prediction":
 
 
 
-#predicting heart disease
+#predicting breast disease
     breast_cancer_diagnosis = ''
     if st.button("Predict the Breast cancer Test Results"):
         
